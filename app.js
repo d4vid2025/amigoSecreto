@@ -19,3 +19,14 @@ function actualizarLista(){
     let listaAmigos = document.querySelector("#listaAmigos");
     listaAmigos.innerHTML = amigos.map(amigo =>`<li>${amigo}</li>`).join("");
 }
+function sortearAmigo(){
+    if(amigos.length===0){
+        alert("Tiene que agregar al menos un amigo");
+    }
+    else{
+        let indiceAleatorio = Math.floor(Math.random()*amigos.length+1)
+        console.log("el indiceAleatorio es "+indiceAleatorio);
+        let elementoResultado = document.querySelector("#resultado");
+        elementoResultado.innerHTML = "El amigo sorteado es :"+ amigos.at(indiceAleatorio);
+    }
+}
