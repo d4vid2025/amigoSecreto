@@ -34,6 +34,15 @@ Este proyecto es una aplicación web que permite a los usuarios ingresar nombres
 4. Cuando hayas ingresado todos los nombres, haz clic en **"Sortear Amigo"**.
 5. Se mostrará el nombre seleccionado aleatoriamente en la pantalla.
 
+## 📷 Capturas de Pantalla
+A continuación, se muestran imágenes del funcionamiento de la aplicación:
+
+### 📌 Agregar amigos a la lista
+![image](https://github.com/user-attachments/assets/76241f9c-5f94-4d0b-beff-8af9021f5005)
+
+
+### 🎲 Sorteo del amigo secreto
+![image](https://github.com/user-attachments/assets/17e9ae7b-34ec-4cd3-a80f-3e61414b4ddc)
 
 
 ## 📜 Licencia
