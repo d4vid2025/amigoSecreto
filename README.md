@@ -68,3 +68,6 @@ function sortearAmigo() {
 
 ## 📜 Licencia
 Este proyecto es de código abierto y puede ser modificado y distribuido libremente. ¡Diviértete programando! 🚀
+
+## 👤 Autor
+**David Calcina Puma**
