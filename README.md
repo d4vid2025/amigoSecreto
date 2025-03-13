@@ -1,4 +1,5 @@
 # 🎁 Amigo Secreto
+![sorteoamigos](https://github.com/user-attachments/assets/241d9fbe-3e46-4ba8-b2ef-ab8304611b32)
 
 ## 📌 Descripción
 Este proyecto es una aplicación web que permite a los usuarios ingresar nombres de amigos en una lista y realizar un sorteo aleatorio para determinar quién será el "amigo secreto".
@@ -33,41 +34,10 @@ Este proyecto es una aplicación web que permite a los usuarios ingresar nombres
 4. Cuando hayas ingresado todos los nombres, haz clic en **"Sortear Amigo"**.
 5. Se mostrará el nombre seleccionado aleatoriamente en la pantalla.
 
-## 📝 Ejemplo de código (JavaScript)
-```javascript
-let amigos = [];
 
-function agregarAmigo() {
-    let input = document.getElementById("amigo");
-    let nombre = input.value.trim();
-    
-    if (nombre === "") {
-        alert("Por favor, ingrese un nombre válido.");
-        return;
-    }
-    
-    amigos.push(nombre);
-    input.value = "";
-    mostrarLista();
-}
-
-function mostrarLista() {
-    let listaAmigos = document.getElementById("listaAmigos");
-    listaAmigos.innerHTML = amigos.map(amigo => `<li>${amigo}</li>`).join("");
-}
-
-function sortearAmigo() {
-    if (amigos.length === 0) {
-        alert("La lista está vacía. Agregue nombres antes de sortear.");
-        return;
-    }
-    let ganador = amigos[Math.floor(Math.random() * amigos.length)];
-    document.getElementById("resultado").innerHTML = `<p>🎉 El amigo secreto es: <strong>${ganador}</strong></p>`;
-}
-```
 
 ## 📜 Licencia
-Este proyecto es de código abierto y puede ser modificado y distribuido libremente. ¡Diviértete programando! 🚀
+Este proyecto está licenciado bajo la Licencia MIT. Puedes ver más detalles en el archivo `LICENSE`.
 
 ## 👤 Autor
 **David Calcina Puma**
