@@ -24,7 +24,7 @@ function sortearAmigo(){
         alert("Tiene que agregar al menos un amigo");
     }
     else{
-        let indiceAleatorio = Math.floor(Math.random()*amigos.length+1)
+        let indiceAleatorio = Math.floor(Math.random()*amigos.length)
         console.log("el indiceAleatorio es "+indiceAleatorio);
         let elementoResultado = document.querySelector("#resultado");
         elementoResultado.innerHTML = "El amigo sorteado es :"+ amigos.at(indiceAleatorio);
